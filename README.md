@@ -4,6 +4,9 @@ Dihjau /di:.'hjau: | dee.'hyow/, is predominantly based off Dwiggin's Electra wi
 
 Notes: 1) The superscript characters, modifier letters, and the numerators, are all part of the superscript table. 2) The bold versions of the font have some alternative/reversed characters; I did this because there is no difference in the math or punctuation symbols, i.e., the bold versions are not actually bold (with exceptions), which gives the font a better harmony. 3) The font uses anchors, which means that it will not align properly for linguistic use, or otherwise, without opentype. 4) For those interested, Open or Libre Office can access all glyphs using: Insert > Special Character.
 
+
+The Font Log explains what this typeface includes and all additions I have added. For the most part, though, simply hovering over or selecting a glyph in your font viewer should give you enough of an idea what the additions are, as they are named.
+
 <img width="740" height="415" alt="Di1" src="https://github.com/user-attachments/assets/2cd33bd1-15c4-47c0-b432-ea7a10f4689f" />
 <img width="740" height="415" alt="Di2" src="https://github.com/user-attachments/assets/a571d8d9-064b-4519-a326-05108cb95f84" />
 <img width="740" height="415" alt="Di3" src="https://github.com/user-attachments/assets/937caa57-6627-4726-8ef5-170a3b89bd55" />
