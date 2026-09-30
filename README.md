@@ -1,3 +1,6 @@
+Overall, this version, which I will continue to add to, is more Electra-esque. Several design elements have changed: all ascenders and descenders, nearly all capital and lowercase letters, and the repositioning of all graphic glyphs. Some changes are subtle, while others are easily noticeable. Also, thanks to everyone and their suggestions, which only made this typeface better. :)
+
+
 # Dihjau
 Dihjau /di:.'hjau: | dee.'hyow/, is predominantly based off Dwiggin's Electra with shades of Fairfield, and Perpetua. It is modern and stately, and like its inspirers, it has broad counters and spacing, which temper it and give it warmth, making it comfortable and well-suited for longer texts. It is balanced in all aspects, from its punctuation to its reference marks and symbols. The italic incorporates a touch of Arrighi. It includes all transcription systems relevant to the Latin, Cyrillic, and Greek alphabets, as well as standard Coptic, plus extra characters for Teuthonista and First Nation. It also includes, to list a few, Egyptian-styled pictographs (where applicable), a plethora of mathematical symbols and arrows, and a number of alternatives in the PUA. This is the redrawn, now more text-like, bolder version of Dehuti/Dehjuti/Dihjauti.
 
