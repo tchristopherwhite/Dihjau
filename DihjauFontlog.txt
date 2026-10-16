@@ -1,4 +1,4 @@
-Dihjau version 1.0.0
+ Dihjau version 1.0.0
 
 Author/designer: T. Christopher White (I & O Media)
 You can contact me, if you have suggestions, find problems or know how to fix them, et cetera, at: amenemsu@gmail.com
@@ -25,8 +25,10 @@ Dihjau includes:
 • Medieval, extra script, fraktur and double-struck letters, as well as raised MC, MD, MR, Wz, and more pictographs.
 • A number of alternatives in the PUA with opentype extensions.
 
-These are my additions, which are mostly in the PUA:
 
+These are my additions:
+
+• (02BC) is a spacing clone of 0315, which should be used with As or Lambdas.
 • (20E7), the combining annuity symbol, is meant to attach to ‘a’, and be used with subscript letters.
 • (221B), cube root, is a negative-spaced radical for use with superscript/modifier letters, numbers, et cetera. Type a letter/number, then 221B. 
 • Concerning the enclosed alphanumerics: The bold version has Mayan numbers, which are: 1 – 5, plus 8 (space), and 11 – 15, plus 18 (space); these are the initial numbers. The secondary, or right half circles, are: 1 – 7, plus 10, and 11 – 17, plus 20, with 10 and 20 being zero. The 8/18 space is for writing larger numbers, e.g., twenty would be 1-8-10, or 11-18-20 for black. Twenty-two would be 1-8-2, et cetera.
@@ -38,91 +40,110 @@ These are my additions, which are mostly in the PUA:
 • Triple diacritic marks, which anchor to the center character: circumflex (1AFC), inverted breve (1AFD), breve below (1AFE), tilde below (1AFF)
 • Circled Logical And and Logical Or, which are in the bold version
 • Mathematical exclamation mark (2757), i.e., the heavy exclamation mark
-• Question, exclamation, interrobang, and reversed question marks with commas (E000-E003); type a comma followed by an exclamation mark, question mark, interrobang, or reversed question mark (2E2E).
-• Additional joined vowels for American phonetic alphabets: (E015, E016, E484, and E607).
-• Tuethonista joining stroked alpha (E017). The remainder are: (E018, E1AB, E32B, E365, E4A4, and E606).
-• Bilabial trill B (E0E7), counterpart to the SIL addition (F2D6).
-• Additional barred digraphs for use with th (1D7A): (E117, E132, E570, and E6A9).
-• Alternative c with palatal hook (E118)
-• Stemless E (E165) for use in American phonetic alphabets.
-• Open E variant (E179); turned open E is (2108)
-• Open e variant for Teuthonista (E1C0); turned open e is (0258)
-• Alternative hooked g (E261) — linguistic use.
-• Teuthonista g with stroked tail (E262)
+
+PUA additions: The majority of these are located in 'salt' and 'ss01' (for use with photoshop or other programs where the 'salt' table may not work). Individual or group characters are in 'cv' tables. The .cap characters are the 'case' table. The characters with added diacritics, such as B/G with tilde, and Y with ogonek, are in the ligature table, as well as the exclamation and question mark with commas, et cetera.
+
+• Question, exclamation, interrobang, and reversed question marks with commas; type a comma followed by an exclamation mark, question mark, interrobang, reversed question mark (2E2E), or wiggly exclamation mark.
+• cv01: Alternative Latin glyphs with x-height anchors. These are: b, d, h, k, p, q, and þ.
+• cv02: ogonek, reverse cedilla-styled
+• cv03: ogonek, angular-styled
+• cv04: Alternative 7 (glottal stop) for indigenous languages
+• cv05: (A7DC/019B) alternative Tl/tl
+• cv06: (026C) alternative belted l
+• cv07: (02C0) angular glottal modifier
+• cv08: ae, (A737 [au]), oe, (1D6B [ue]). Additional joined vowels for American phonetic alphabets.
+• cv09: AB30, AB33, 1DF41, 0268, 0249, A74B, and 0289. Teuthonista joining vowels.
+• Bilabial trill B, counterpart to the SIL addition (F2D6).
+• cv10: Alternative barred b (018A).
+• cv11: Alternative modifier letters (1D5D, 1D66, 1DFD2 [regular and bold], 10793, 10791, and 1DB9).
+• Barred digraphs for use with th (1D7A): (E117, E132, E570, and E6A9).
+• cv12: Alternative c with palatal hook (A794), and z (1D8E).
+• cv13: Alternative D/d with cedilla (1E10/1E11).
+• cv14: Alternative African D with bar (018A).
+• cv15: Alternative Croation, or barred D/d.
+• cv16: Alternative d with caron.
+• cv17: Alternative schwa, or stemless E (018F). For use in American phonetic alphabets.
+• cv18: Alternative open E/e (0190/025B).
+• cv19: Alternative hooked g (0260) — linguistic use.
+• cv20: Alternative Teuthonista g with stroked tail (AB36), and m and n with curled legs for Lithuanian (AB3A/AB3B).
+• cv21: Alternative seriffed baby gamma (0264), for use with American phonetic alphabets.
 • H with line below (E282), counterpart to (1E96)
-• Alternative barred H (E285)
-• Alternative H with hook (E286)
-• Alternative Cyrillic shhas (E28F & E290)
-• Alternative Welsh Ll/ll (E388 & E39A) — This form is the more common design.
-• m and n with curled legs for Lithuanian (E3C4 & E3E5); these are alternatives of (AB3A & AB3B).
-• Alternative retroflex N (E3EB)
-• Alternative Eng (E3FF); (A790 & A791) are also alternative Engs, originally used with Janalif.
-• Alternative Greek Omegas (E44A & E44B)
-• Greek OU ligature (E44C)
-• Latin/Cyrillic OU/ou (E44D & E489); these are alternatives of (A74E & A74F), i.e., the double oo.
-• Alternative p with hook (E521 & E52C)
-• Alternative Latin Q or Cyrillic Qa (E537)
-• Retroflex R (E54E), counterpart to (027B)
-• Alternative prescription take (E54F); this character is for Latin.
-• Alternative esh (E56E)
-• T with diaeresis (E572), counterpart to (1E97)
-• Alternative Thorn (E57A); in my opinion, this form better harmonizes with the rest of the capitals.
-• Cyrillic Che/che with tail (E57C & E583)
-• Latin Thetas (E57D & E58B)
-• Alternative V/v with hook (E641 & E64B)
-• V with right hook (E642), counterpart to (2C71)
-• W with ring above (E653), counterpart to (1E98)
-• Y with ring above (E67A), counterpart to (1E99)
-• Y/y with ogonek (E67D & E68C)
-• Alternative turned H/h (E683 & E692); i.e., (A78D & 0265) or the equivalent of ÿ. I took the liberty of literally adding a tail to 'u', which is how the character evolved from Medieval Latin.
-• Alternative Cyrillic Yu/yu (E684 & E693)
-• z with palatal hook — for dialectological use (E6AA)
-• Capital click consonants (E6AE – E6B2; now with E6B3 [newest addition])
+• cv22: Alternative barred H
+• cv23: Alternative Cyrillic shhas (04BB/0527).
+• cv24: Alternative L/l with carons.
+• cv25: Alternative Welsh Ll/ll (1EFA/1EFB) — This form is the more common design.
+• cv26: Alternative retroflex N (019D)
+• cv27: Alternative Eng; (A790 & A791) are also alternative Engs, originally used with Janalif.
+• cv28: Alternative Greek Omegas (03A9 and Omegatonos)
+• cv29: Greek OU ligature; alternative of (0222)
+• cv30: Latin OU/ou; these are alternatives of (A74E/A74F), i.e., the double oo.
+• cv31: Alternative p with hook
+• cv32: Alternative Qs (Q, A756, A758, and A7AF)
+• Turned retroflex R, counterpart to (027B)
+• cv33: Alternative prescription take; this character is for Latin.
+• cv34: Alternative retroflex R (2C64)
+• cv35: Alternative esh (0283)
+• T with diaeresis, counterpart to (1E97)
+• cv36: Alternative Thorn; in my opinion, this form better harmonizes with the rest of the capitals.
+• cv37: Cyrillic Che/che with tail (04B6/04B7)
+• cv38: Alternative t with caron.
+• cv39: Alternative V/v with hook (01B2/028B)
+• V with right hook, counterpart to (2C71)
+• W with ring above, counterpart to (1E98)
+• Y with ring above, counterpart to (1E99)
+• cv40: Alternative turned H/h (A78D/0265); i.e., the equivalent of ÿ. I took the liberty of literally adding a tail to 'u', which is how the character evolved from Medieval Latin.
+• cv41: Alternative Cyrillic Yu/yu (afii10048/afii10096)
+• cv42: Alternative script z (1D4CF/1D503)
+• cv43: Alternative divide and logical not hyphens — these match the actual hyphens.
+• cv44: Alternative spacing modifier tone marks for chinantec.
+
+• Alternative triple vertical bar delimiter for mathematical use (2980); the normal position for the glyph is the lowercase triple click.
+• Capital click consonants (E6AE – E6B3)
 • Tonal glyphs (E6B8 – E6BF)
-• Extra characters for Teuthonista (E6C4 – E6D5): superscript/modifier letter combining diaeresis (E6D1); combining dotless i (E6D2), small double parenthses (E6D4 & E6D5)
+• Extra combining characters for Teuthonista (E6C4 – E6CF); superscript/modifier letter combining diaeresis (E6D1); combining dotless i (E6D2), small double parenthses (E6D4 & E6D5)
 • Modifier letter Theta for First Nation languages (E733)
 • Additional drafting characters: (E7AA – E7AE).
 • Alternative drachma (E7B8), mil (E7B9), pfennig (E7BA), and Nordic sign (E7BB)
 • Additional combining forms (boots) for Medieval Latin: (E7BC – for use with f and ſ); (E7BD – for use with i, k, u, and other right-serifed glyphs.)
 • Additional combing marks (E7C2 – E7C4): Saurashtra candrabindu (used in India), and a combined haček and comma above for First Nation languages.
-• Alternative hyphen (E7C4)
+• Alternative divide-styled hyphen (E7C4)
 • Alternative ampersands (E7C5 & E7C6)
-• Alternative pilcrow/paragraph (E7C7)
 • Additional characters for drafting (E7C8 - E7CB), which are in the regular version.
 • Alternative house (E7CC); this style is a typical Egyptian house, i.e., this is an image, whereas the original is the hieroglyph.
-• Mathematical double vertical bar (E7CE); regular version.
 • Alternative “sun” — white sun with rays (263C), or compass (E7CF); the bold version has an alternative compass.
-• Chinantec alternatives for spacing modifier letters (E7D0 – E7D3)
+• Alternative spacing modifier tone marks for chinantec (E7D0 – E7D3)
 • Combining double breve, macron, tilde, inverted breve, circumflex, and ni for capitals (E7D4 – E7D9)
 • Combining “def” and question mark for math (E7DB & E7DC); regular version.
 • Alternative daggers for math (E7DD & E7DE); these characters correlate with (2BD2), which is the triple dagger, i.e., the "group mark".
-• Combining overline extenders for use with the long division glyph (E7F6 – E7F9).
+• Combining overline extenders for use with the long division or radical glyph (E7F6 – E7F9).
 • Reversed summations (E7E2 & E7E3); regular and bold versions.
 • Alternative Gradient/Nabla (E7E4)
-• Alternative/reversed radical (E7E5)
+• Reversed radical (E7E5)
 • Merged product and co-product (E7E6); type product, then co-product, i.e., (220F & 2210).
 • Large combining glyphs (E7E7 – E7E9)
-• (E7EF): Dihjau (ibis) icon; reversed in bold version
+• (E7EF): Dihjau (ibis) icon; reversed in the bold version
 • Alternative circled equals (E7F3); this is part of the group of circled symbols for licensing, the others being: (1F10D – 1F12C, 1F12F, and 1F16D – 1F16F).
 • (E7F4): Restart button; an addition to the other power symbols (23FB – 23FE).
 • (E7F5): eye of Rijaa (Sun) icon; the bold version is the reversed eye of Hjoru (sky) icon.
 • (E7FA) is the inverse version of (1F5F9).
-• (E7BF) – uni0315.cap, is used, like its lowercase counterpart, with angled characters such as A and lambdas.
+• Extended capital joiners: (E7D4 — E7D9)
 • Battery charging glyphs for use with 1F50B & 1FAAB (E800 – E806).
 • Connecting arrow extensions, additions to (23AF), horizontal line extension, i.e., the connecting right pointing arrow extension. (E807 – E80B): open middle joiners; (E80C – E80F): additional arrow tails/starters; (E810): double right pointing arrow connector (double of 23AF); (E811 & E812): left pointing connectors; (E813 & E814): left-right joiners; (E815 & E816): centered extensions; (E817 – E81E): extra tails/starters. All of these can be used with the hyphen, en, and em dashes, or arrows, pictographs, et cetera, to create decorative elements.
 • Alternate logical not hyphen (E81F).
 • Extended Cyrillic vzmets & titlos (E84A – E84E). The triple titlo anchors to the center character.
-• Alternative combining Cyrillic letters (E84F [regular version], E84F – E853 [Italic])
+• Alternative combining Cyrillic (Serbian and Macedonian) letters (E84F [regular version], E84F – E853 [Italic])
 • (E85A – E881): decorative elements that can be used with the arrows, et cetera
 • (E88A – E88D): decorative joiner elements (these are negative spaced on both ends)
 • (E88E – E891): extra center decorative elements
 • (E89A – E89D): decorative endings (right joins followed by left joins)
 • Low tilde (EB67)
+• Additional SIL characters: modifier barred small capital U; capital retroflex barred D, counterpart to (1D91); modifier small capital I with schwa, and upsilon with schwa (dictionary usage); bilabial b; and, barred Ghe/ghe with descender.
 • Mayan tabular numbers (F2E0 – F2F3).
-• Small and fullwidth forms: (FE55), the small colon, is for math; this character has no spacing, and is designed to be used with the hair space (200A). (FE57), the small exclamation mark, is an alternative for math/APL, as it is constructed with the apostrophe. (FE68), the small reverse solidus, is the counterpart to (2215), the division slash. (FF0F) is an alternative solidus operator for math, counterpart to (29F5), the reverse solidus operator. (FF5C) is an alternative bar for math.
-• (1F5B3), or old personal computer, is a tablet.
+
+• The small and fullwidth characters are for use with math: (FE55), the small colon has no spacing, and is designed to be used with the hair space (200A).
 • (1F701 - 1F704, & 1F747), part of a set with (2721) Star of David.
 • (1F7F0), the heavy equals sign, accompanies (274C, and 2975 – 2797).
 • (1FBBF), is the black version of (26CB).
+
 
 
